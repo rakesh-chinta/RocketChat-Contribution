@@ -1,0 +1,5 @@
+// Use parse function for massive events or scheduler.addEvent for a simple event. Anyway read the documentation.
+scheduler.parse([
+     { start_date:"2013-05-13 6:00", end_date:"2009-05-13 8:00", text:"Event 1"},
+     { start_date:"2013-06-09 6:00", end_date:"2009-06-09 8:00", text:"Event 2"}
+],"json");
